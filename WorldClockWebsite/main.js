@@ -1,0 +1,2 @@
+var lat;
+var long;

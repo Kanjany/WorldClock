@@ -1,0 +1,53 @@
+div {
+    height: 60rem;
+}
+
+#left-div {
+    background-color: red;
+    position: absolute;
+    width: 20%;
+}
+
+#middle-div {
+    background-color: blue;
+    position: absolute;
+    margin-left: 20%;
+    width: 60%;
+    padding: auto auto;
+}
+
+#right-div {
+    background-color: brown;
+    position: absolute;
+    margin-left: 80%;
+    width: 20%;
+}
+
+#World-Clock{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 30%;
+    
+}
+
+.buttons {
+    position: relative;
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.BTN{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5%;
+    background-color: rosybrown;
+    border: none;
+    transition-duration: 0.5s;
+    justify-content: center;
+}
+
+.BTN:hover {
+    background-color: aquamarine;
+}
